@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Students</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+    <h3>SPAS</h3>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="students.html">Students</a>
+    <a href="analytics.html">Analytics</a>
+    <a href="#">Reports</a>
+    <a href="index.html">Logout</a>
+</div>
+
+<div class="main">
+
+    <!-- TOP BAR -->
+    <div class="top-nav">
+        <h1>Student Records</h1>
+        <div class="nav-right">
+            <input type="text" placeholder="Search student...">
+            <button class="primary-btn">+ Add Student</button>
+        </div>
+    </div>
+
+    <!-- SUMMARY CARDS -->
+    <div class="student-summary">
+        <div class="summary-card">
+            <h3>Total Students</h3>
+            <p>320</p>
+        </div>
+        <div class="summary-card">
+            <h3>Passed</h3>
+            <p>280</p>
+        </div>
+        <div class="summary-card">
+            <h3>Failed</h3>
+            <p>40</p>
+        </div>
+    </div>
+
+    <!-- TABLE -->
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Roll No</th>
+                    <th>Math</th>
+                    <th>Physics</th>
+                    <th>Chemistry</th>
+                    <th>Average</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Sarang Landage</td>
+                    <td>101</td>
+                    <td>85</td>
+                    <td>72</td>
+                    <td>80</td>
+                    <td>79%</td>
+                    <td><span class="badge success">Pass</span></td>
+                    <td>
+                        <button class="action view">View</button>
+                        <button class="action edit">Edit</button>
+                        <button class="action delete">Delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Rohit Sharma</td>
+                    <td>102</td>
+                    <td>65</td>
+                    <td>70</td>
+                    <td>68</td>
+                    <td>67%</td>
+                    <td><span class="badge success">Pass</span></td>
+                    <td>
+                        <button class="action view">View</button>
+                        <button class="action edit">Edit</button>
+                        <button class="action delete">Delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Akash Verma</td>
+                    <td>103</td>
+                    <td>40</td>
+                    <td>55</td>
+                    <td>48</td>
+                    <td>47%</td>
+                    <td><span class="badge danger">Fail</span></td>
+                    <td>
+                        <button class="action view">View</button>
+                        <button class="action edit">Edit</button>
+                        <button class="action delete">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- PAGINATION -->
+    <div class="pagination">
+        <button>Previous</button>
+        <button class="active">1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>Next</button>
+    </div>
+
+</div>
+
+</body>
+</html>
