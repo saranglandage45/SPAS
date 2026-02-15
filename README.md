@@ -118,6 +118,3 @@ Screenshots were captured from the local UI and added under the `screenshots/` f
 
 ---
 
-## 🔗 GitHub Repository
-
-(Insert your repository link here)
