@@ -112,9 +112,10 @@ Screenshots were captured from the local UI and added under the `screenshots/` f
 
 ## 👨‍💻 Developed By
 
-**Name:** Satyam Rathod  
+**Name:** Sarang Landage  
 **Branch:** AIML (Artificial Intelligence & Machine Learning)  
 **Year:** Second Year  
 
 ---
+
 
